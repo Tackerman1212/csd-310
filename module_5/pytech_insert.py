@@ -33,6 +33,6 @@ frodo_student_id = students.insert_one(frodo).inserted_id
 
 
 print("--  INSERT STATEMENTS --")
-print("Inserted student record Thorin Okenshield into the students collection with document_id", thorin_student_id) 
-print("Inserted student record Bilbo Baggins into the students collection with document_id", bilbo_student_id)
-print("Inserted student record Frodo Baggins into the students collection with document_id", frodo_student_id)
+print("Inserted student record", {thorin["first_name"]}, {thorin["last_name"]}, "into the students collection with document_id", thorin_student_id) 
+print("Inserted student record", {bilbo["first_name"]}, {bilbo["last_name"]}, "into the students collection with document_id", bilbo_student_id) 
+print("Inserted student record", {frodo["first_name"]}, {frodo["last_name"]},"into the students collection with document_id", frodo_student_id) 
