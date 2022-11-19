@@ -8,11 +8,15 @@ find_docs = db.students.find({})
 
 print("--  DISPLAYING STUDENT DOCUMENTS FROM find() QUERY --")
 
-print(find_docs)
+#print(find_docs)
+for x in find_docs:
+    print(x)
 
-find_one_docs = db.students.find_one({"student_id" : "1007"})
+find_one_docs = db.students.find_one({"student_id": "1007"})
 
 
 print("--  DISPLAYING STUDENT DOCUMENTS FROM find_one() QUERY --")
 
 print(find_one_docs)
+#for x in find_one_docs:
+    #print(x)
