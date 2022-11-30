@@ -1,3 +1,5 @@
+# error in VScode with "mysql.connector", had to run as "python mysql_test.py"
+
 import mysql.connector 
 from mysql.connector import errorcode
 
